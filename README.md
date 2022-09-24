@@ -1,4 +1,4 @@
-# GNN-Multi-Agent
+# PyTorch Geometric Multi-Agent
 
 [Documentation](https://gnn-multi-agent.readthedocs.io/en/latest/)
 
