@@ -1,0 +1,51 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "da761891",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from tensorboardX import SummaryWriter\n",
+    "from tqdm import tqdm\n",
+    "import gc\n",
+    "from copy import deepcopy\n",
+    "from gym_dubins_car import DubinsCarEnv\n",
+    "\n",
+    "import torch\n",
+    "import numpy as np\n",
+    "from torch import nn\n",
+    "import math\n",
+    "from models import *   \n",
+    "from train_dubins_random_dataset import *\n",
+    "from core import generate_default_model_name\n",
+    "\n",
+    "import scipy\n",
+    "from random import shuffle\n",
+    "from torch.utils.data import DataLoader\n",
+    "from torch.utils.data.dataloader import default_collate\n",
+    "from collections import defaultdict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "3f821d0e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Env = DubinsCarEnv\n",
+    "env = DubinsCarEnv(num_agents=3, mode='barrier', PROB=(0,0.1), SIZE=(8,8))\n",
+    "name_dict = generate_default_model_name(Env)\n",
+    "bnn = OriginGNNv2(HIDDEN_SIZE, keys=['agent', 'obstacle'])\n",
+    "bnn.to(device)\n",
+    "bnn.load_state_dict(torch.load(name_dict['db'], map_location=device))\n",
+    "bnn.train()"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
