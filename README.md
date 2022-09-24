@@ -1,4 +1,4 @@
-# CAM-Multi-Agent
+# GNN-Multi-Agent
 
 [Documentation](https://gnn-multi-agent.readthedocs.io/en/latest/)
 
