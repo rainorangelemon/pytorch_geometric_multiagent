@@ -1,0 +1,57 @@
+version_name = 'v104'
+
+ENV_CONFIG = {
+    'num_agents': 3,
+    'SIZE': (3,3),
+    'agent_top_k': 2,
+    'obstacle_top_k': 1,
+    'PROB': (0.,1.0),
+    'simple': False,
+}
+
+FIX_ENV = False
+
+LR = 3e-4
+PATIENCE = 2
+DECAY_EXPLORE_RATE = 0.8
+DECAY_NOMINAL_RATE = 0.
+MIN_EXPLORE_EPS = 0.2
+MAX_EXPLORE_EPS = 1.0
+POTENTIAL_OBS = False
+TRAIN_ON_HARD = False
+VARIABLE_AGENT = False
+CBUF_BEFORE_RELABEL = True
+REFINE_EPS = 1.0
+RELABEL_ONLY_AGENT = False
+ALL_LIE = True
+ONLY_BOUNDARY = False
+DANGER_THRESHOLD = 0
+
+MODEL = 'OriginGNNv8'
+
+
+PE_DIM = None
+N_TRAJ = N_EPOCH = 1000000000
+N_BUFFER = 20
+N_CBUF = 1000
+
+POLYAK = 0.99
+SPATIAL_PROP = False
+n_candidates = 2000
+BATCH = 1024
+N_ITER = 100
+N_TRAJ_PER_EPOCH = 10
+N_EVALUATE = 100
+N_VALID = 100
+N_WARMUP = 10
+N_DATASET = 10
+N_VALID_DATASET = 50
+THRESHOLD = 1e-2
+HIDDEN_SIZE = 128
+RELABEL = True
+EXPLORE_WAY = 'exponential'
+NOMINAL_WAY = 'exponential'
+DECAY_RELABEL = False
+USE_SCHEDULER = True
+OPTIMIZER = 'Adam'
+SAVE_GIF = False
