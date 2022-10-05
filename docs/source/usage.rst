@@ -6,11 +6,11 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use PyG-MA, clone it via GitHub
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ git clone https://github.com/rainorangelemon/pytorch_geometric_multiagent
 
 Creating recipes
 ----------------

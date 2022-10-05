@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'PyTorch Geometric Multi-Agent'
+copyright = '2022, Chenning Yu'
+author = 'Chenning Yu'
 
 release = '0.1'
 version = '0.1.0'
