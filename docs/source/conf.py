@@ -22,7 +22,7 @@ extensions = [
     'sphinx.ext.intersphinx',
 ]
 
-html_theme = 'pyg_sphinx_theme'
+html_theme = 'pygma_sphinx_theme'
 html_logo = ('https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/'
              'master/pygma_sphinx_theme/static/img/pygma_logo.png')
 html_favicon = ('https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/'
