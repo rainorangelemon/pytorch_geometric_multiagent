@@ -1,11 +1,13 @@
 # PyTorch Geometric Multi-Agent
 
+<img src="https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/master/pygma_sphinx_theme/static/img/pygma_logo.png" alt="drawing" width="200"/>
+
 [Documentation](https://pytorch-geometric-multiagent.readthedocs.io/en/latest/)
 
 -----------------------
-The official repo for the CoRL 2022 paper 'Learning Control Admissibility Models with Graph Neural Networks for Multi-Agent Navigation' ([project page](https://rainorangelemon.github.io/CoRL2022/))
+The official repo for the CoRL 2022 paper 'Learning Control Admissibility Models with Graph Neural Networks for Multi-Agent Navigation' [[project page](https://rainorangelemon.github.io/CoRL2022/)]
 
-The current repo only includes GNN for control. For planning methods such as CBS and SIPP, please stay tuned.
+<!--The current repo only includes GNN for control. For planning methods such as CBS and SIPP, please stay tuned.-->
 
 The ultimate goal is to provide a benchmark and a handy tool for GNN researchers to conduct evaluations properly and fairly for multi-agent tasks.
 
