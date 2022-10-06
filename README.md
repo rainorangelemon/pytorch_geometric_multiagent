@@ -1,8 +1,6 @@
 # PyTorch Geometric Multi-Agent
 
-<img src="https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/master/pygma_sphinx_theme/static/img/pygma_logo.png" alt="drawing" width="200"/>
-
-[Documentation](https://pytorch-geometric-multiagent.readthedocs.io/en/latest/)
+<img src="https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/master/pygma_sphinx_theme/static/img/pygma_logo.png" alt="drawing" width="200"/> [Documentation](https://pytorch-geometric-multiagent.readthedocs.io/en/latest/)
 
 -----------------------
 The official repo for the CoRL 2022 paper 'Learning Control Admissibility Models with Graph Neural Networks for Multi-Agent Navigation' [[project page](https://rainorangelemon.github.io/CoRL2022/)]
