@@ -1,3 +1,4 @@
+pyproject.toml
 .ipynb_checkpoints
 __pycache__/
 pygma.egg-info
