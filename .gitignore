@@ -1,3 +1,6 @@
 .ipynb_checkpoints
 __pycache__/
 pygma.egg-info
+PyGma.egg-info
+*.egg-info
+dist
