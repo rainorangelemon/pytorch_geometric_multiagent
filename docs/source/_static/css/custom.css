@@ -17,3 +17,7 @@ h3 {
 .ethical-rtd > div.ethical-footer {
   display: none !important;
 }
+
+#furo-sidebar-ad-placement {
+  display: none !important;
+}
