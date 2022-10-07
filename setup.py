@@ -1,19 +1,16 @@
 from setuptools import find_packages, setup
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 URL = 'https://github.com/rainorangelemon/pytorch_geometric_multiagent'
 
 install_requires = [
     'tqdm',
     'numpy',
     'matplotlib',
+    'scipy',
 ]
 
-full_requires = [
-    'tqdm',
-    'numpy',
-    'matplotlib',
-]
+full_requires = install_requires
 
 benchmark_requires = [
     'wandb',
