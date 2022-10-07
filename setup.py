@@ -6,6 +6,7 @@ URL = 'https://github.com/rainorangelemon/pytorch_geometric_multiagent'
 install_requires = [
     'tqdm',
     'numpy',
+    'matplotlib',
 ]
 
 full_requires = [
