@@ -5,5 +5,5 @@ sphinx-copybutton
 sphinx-design
 sphinx-inline-tabs
 sphinx-tabs
-pyg-pyg_multiagent
+pyg-multiagent
 furo
