@@ -9,8 +9,8 @@ project = 'pytorch_geometric_multiagent'
 author = 'Chenning Yu'
 copyright = f'{datetime.datetime.now().year}, {author}'
 
-release = '0.1'
-version = '0.1.0'
+# release = '0.1'
+# version = '0.1.0'
 
 # -- General configuration
 
@@ -45,7 +45,11 @@ intersphinx_mapping = {
 # }
 # intersphinx_disabled_domains = ['std']
 
-# templates_path = ['_templates']
+templates_path = ['_templates']
+html_static_path = ["_static"]
+html_css_files = [
+    "css/custom.css",
+]
 
 # # -- Options for HTML output
 
