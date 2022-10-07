@@ -1,7 +1,7 @@
 # PyTorch Geometric Multi-Agent
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/master/pygma_sphinx_theme/static/img/pygma_logo.png" alt="drawing" width="150"/> 
+<img src="https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/master/pygma_sphinx_theme/static/img/text_logo.png" alt="drawing"/> 
 </p>
 
 -----------------------
