@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 URL = 'https://github.com/rainorangelemon/pytorch_geometric_multiagent'
 
 install_requires = [
@@ -9,6 +9,7 @@ install_requires = [
     'matplotlib',
     'scipy',
     'cvxpy',
+    'pybullet'
 ]
 
 full_requires = install_requires

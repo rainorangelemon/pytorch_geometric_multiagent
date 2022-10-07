@@ -5,6 +5,7 @@ https://data.pyg.org/whl/torch-1.9.0%2Bcpu/torch_scatter-2.0.7-cp38-cp38-linux_x
 https://data.pyg.org/whl/torch-1.9.0%2Bcpu/torch_sparse-0.6.12-cp38-cp38-linux_x86_64.whl
 https://data.pyg.org/whl/torch-1.9.0%2Bcpu/torch_cluster-1.5.9-cp38-cp38-linux_x86_64.whl
 https://data.pyg.org/whl/torch-1.9.0%2Bcpu/torch_spline_conv-1.2.1-cp38-cp38-linux_x86_64.whl
+pybullet
 torch_geometric
 myst-parser
 sphinx-copybutton
