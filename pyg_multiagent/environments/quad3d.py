@@ -7,7 +7,7 @@ from typing import Tuple, List, Optional
 import torch
 import numpy as np
 
-from environment.control_affine_system import ControlAffineSystem
+from .control_affine_system import ControlAffineSystem
 
 grav = 0.98
 

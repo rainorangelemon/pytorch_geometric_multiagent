@@ -6,7 +6,7 @@ import matplotlib.patches as patches
 from matplotlib.animation import FuncAnimation
 from matplotlib.animation import FFMpegWriter, PillowWriter
 from matplotlib.collections import PatchCollection, EllipseCollection
-from environment.gym_abstract import AbstractState, AbstractEnv
+from .gym_abstract import AbstractState, AbstractEnv
 from torch_geometric.data import Data, HeteroData
 from scipy.spatial.distance import cdist
 import torch

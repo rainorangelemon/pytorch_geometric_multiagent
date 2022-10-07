@@ -14,7 +14,7 @@ from scipy.linalg import block_diag
 from torch_sparse import SparseTensor
 # from torch_geometric.utils import index_to_mask
 from functools import reduce
-from environment.utils import less_or_equal
+from .utils import less_or_equal
 
 neighbor_sample = torch.ops.torch_sparse.neighbor_sample
 

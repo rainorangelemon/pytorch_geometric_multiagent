@@ -14,7 +14,7 @@ import numpy as np
 import torch
 from torch.autograd.functional import jacobian
 
-from environment.utils import (
+from .utils import (
     Scenario,
     ScenarioList,
     lqr,

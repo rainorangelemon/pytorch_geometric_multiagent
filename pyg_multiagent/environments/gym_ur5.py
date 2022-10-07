@@ -3,12 +3,12 @@ import pybullet as p
 from time import sleep, time
 import pybullet_data
 import pickle
-from environment.gym_abstract import AbstractState, AbstractEnv
+from .gym_abstract import AbstractState, AbstractEnv
 from torch_geometric.data import Data, HeteroData
 from scipy.spatial.distance import cdist
 import torch
 import math
-from environment.utils import save_gif
+from .utils import save_gif
 from time import sleep
 
 AGENT_TOP_K = 6

@@ -4,10 +4,10 @@
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
-from environment.quad3d import Quad3D
+from .quad3d import Quad3D
 import torch
 import math
-from environment.gym_abstract import AbstractState, AbstractEnv
+from .gym_abstract import AbstractState, AbstractEnv
 import mpl_toolkits.mplot3d.art3d as art3d
 import matplotlib.patches as patches
 from matplotlib.animation import FuncAnimation
