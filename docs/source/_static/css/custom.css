@@ -13,8 +13,9 @@ h3 {
 /* Remove elements */
 .wy-nav-content .wy-breadcrumbs-aside,
 .ea-placement,
-div.ethical-sidebar,
+div.sidebar-scroll div.ethical-sidebar,
 div.ethical-footer,
-div #furo-sidebar-ad-placement {
+div.ethical-footer,
+div#furo-sidebar-ad-placement {
   display: none !important;
 }
