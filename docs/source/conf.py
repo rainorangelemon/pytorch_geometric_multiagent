@@ -24,7 +24,7 @@ extensions = [
     "myst_parser",
 ]
 
-html_theme = 'pygma_sphinx_theme'
+html_theme = 'furo'
 html_title = "PyG-MultiAgent Documentation"
 html_logo = ('https://raw.githubusercontent.com/rainorangelemon/pygma_sphinx_theme/'
              'master/pygma_sphinx_theme/static/img/pygma_logo.png')
@@ -66,6 +66,8 @@ napoleon_use_admonition_for_references = True
 napoleon_custom_sections = [("Returns", "params_style")]
 
 # # -- Options for HTML output
+
+# html_theme = 'sphinx_rtd_theme'
 
 # # -- Options for EPUB output
 # epub_show_urls = 'footnote'
