@@ -13,10 +13,6 @@ h3 {
 }
 
 /* Remove elements */
-.wy-nav-content .wy-breadcrumbs-aside,
-.ea-placement,
-#furo-sidebar-ad-placement .ethical-sidebar,
-#furo-sidebar-ad-placement .ethical-footer,
-#furo-sidebar-ad-placement {
+#furo-sidebar-ad-placement .ethical-sidebar{
   display: none !important;
 }
