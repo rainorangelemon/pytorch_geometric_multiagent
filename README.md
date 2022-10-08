@@ -2,7 +2,7 @@
 
 -----------------------
 
-**[Documentation](https://pytorch-geometric-multiagent.readthedocs.io/en/latest/)**
+**[Documentation](https://pytorch-geometric-multiagent.readthedocs.io/)**
 
 The official repo for the CoRL 2022 paper 'Learning Control Admissibility Models with Graph Neural Networks for Multi-Agent Navigation' [[project page](https://rainorangelemon.github.io/CoRL2022/)]
 

@@ -16,3 +16,7 @@ h3 {
 #furo-sidebar-ad-placement .ethical-sidebar{
   display: none !important;
 }
+
+#furo-readthedocs-versions{
+    display: none !important;
+}
