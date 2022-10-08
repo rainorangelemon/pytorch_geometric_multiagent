@@ -13,4 +13,4 @@ sphinx-inline-tabs
 sphinx-tabs
 pyg-multiagent
 furo
-git+https://github.com/rainorangelemon/pygma_sphinx_theme.git
+# git+https://github.com/rainorangelemon/pygma_sphinx_theme.git
